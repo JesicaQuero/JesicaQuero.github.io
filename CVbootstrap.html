@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curriculum Vitae</title>
+    <link rel="icon" type="image/x-icon" href="https://c7.alamy.com/compes/2gjwe74/letra-alfabetica-en-la-palabra-cv-abreviatura-del-curriculum-vitae-sobre-el-viejo-color-rojo-plato-de-madera-fondo-2gjwe74.jpg">
+    <link rel="stylesheet" type="text/css" href="CVbootstrap.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">"
+    <style>
+          .header{
+    grid-area: header;
+    background-color: #f1f1f1;
+    padding: 30px;
+    text-align: center;
+    font-size: 35px;
+    color: rgb(255, 255, 255);
+  }
+  .footer {
+  grid-area: footer;
+  background-color: #f1f1f1;
+  margin: 100px 10px 10px 10px;
+  padding: 10px;
+  text-align: center;
+}
+    </style>
+</head>
+<body>
+
+    <script src="CV.js"></script>
+
+    <div class="header">
+        <h1 id="id1">Curriculum vitae</h1>
+    </div>
+
+    <button id= "cambiodiseño" type="button" 
+    onclick="document.getElementById('id1').style.background = 'orange'">
+    Cambiar diseño</button>
+
+    <button id= "cambiodiseño" type="button" 
+    onclick="document.getElementById('id1').style.background = '#266a97'">
+    Volver a original</button>
+
+
+    <!--Intento de eventos para navegaciones y pestañas de Bootstrap sin éxito
+<div class="container">
+    <ul class="nav nav-tabs mt-3">
+        <li class="nav-item">
+          <a class="nav-link active" data-bs-toggle="tab" href="#home-tab-pane">Home</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link" data-bs-toggle="tab" href="#experiencialab-tab-pane">Experiencias laborales</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" data-bs-toggle="tab" href="#formacion-tab-pane">Formación</button>
+        </li>
+      </ul>
+
+      <div class="tab-content">
+        <div class="tab-pane fade show active" id="home-tab-pane">
+            <form action="">
+                <p>
+                <label for="Nombre"> <span>Nombre</span> <abbr title="Este campo es obligatorio" aria-label="required"></abbr></label>
+                <input type="text" name="name" placeholder="Ingrese su nombre" value="Soham">
+              </p>
+           
+                <p>
+                <label for="Apellido"> Apellido</label>
+                <input type="text" name="lname" placeholder="Ingrese su apellido" value="Taylor">
+            </p>
+                <p>
+                <label for="E-mail"> e-mail </label>
+                <input type="email" name="email" placeholder="Ingrese su e-mail" value="soham.taylor@example.com"> 
+            </p>
+                <p>
+                <label for="Dirección"> Dirección </label>
+                <input type="Dirección" name="dirección" placeholder="Ingrese su dirección" value="9984 W Pecan St"> 
+            </p>
+                <p>
+                <label for="Teléfono"> Número de teléfono</label>
+                <input type="tel" name="teléfono" placeholder="Ingrese número de teléfono" value="(276) 265-0994r">
+            </p>
+        </form>
+        </div>
+
+        <div class="tab-pane fade" id="experiencialab-tab-pane">
+            <div id="descripcion" class="col-md-9" style="background-color: rgb(236, 236, 236); padding: 30px;">
+                <h6>Experiencia Laboral</h6>
+                <ul>
+                 <li>2005-2006 Profesor adjunto de la materia “Análisis social latinoamericano”, impartida por el profesor Raúl Sevilla en los semestres 2005-2 y 2006-1 en la Facultad de Ciencias Políticas y Sociales de la Universidad Nacional Autónoma de México.</li>
+                 <li>-2007-2009 Investigador en el Instituto de Investigaciones Sociales de la Universidad Nacional Autónoma de México, bajo la supervisión del Dr. Huberto Anaya.</li>
+                 <li>-2010-2011 Profesor de asignatura en la Escuela Nacional de Antropología e Historia.</li>
+                 <li>2011-presente Investigador de medio tiempo en el Instituto de Investigaciones Antropológicas de la Universidad Nacional Autónoma de México.</li>
+            </ul>
+            </div>
+        </div>
+
+        <div class="tab-pane fade" id="formacion-tab-pane">
+            <div id="descripcion" class="col-md-9" style="background-color: rgb(236, 236, 236); padding: 30px;">
+            <h6>Idiomas</h6>
+            <ul>
+             <li>Inglés</li>
+             <li>Portugués</li>
+         </ul>
+
+            <h6>Aptitudes</h6>
+            <ul>
+             <li>Trabajo en equipo</li>
+             <li>inicativa</li>
+             <li>Resolución de problemas</li>
+             <li>Comunicación efectiva</li>
+         </ul>
+         </div>
+        </div>
+        -->
+
+
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+    <img src="https://randomuser.me/api/portraits/men/18.jpg" alt="Imagen del postulante">
+</div>
+        </div>
+
+    <div class="container-fluid">
+        <div class="row">
+
+            <div class= "col-md-3">
+                <form action="">
+                    <p>
+                    <label for="Nombre"> <span>Nombre</span> <abbr title="Este campo es obligatorio" aria-label="required"></abbr></label>
+                    <input type="text" name="name" placeholder="Ingrese su nombre" value="Soham">
+                  </p>
+               
+                    <p>
+                    <label for="Apellido"> Apellido</label>
+                    <input type="text" name="lname" placeholder="Ingrese su apellido" value="Taylor">
+                </p>
+                    <p>
+                    <label for="E-mail"> e-mail </label>
+                    <input type="email" name="email" placeholder="Ingrese su e-mail" value="soham.taylor@example.com"> 
+                </p>
+                    <p>
+                    <label for="Dirección"> Dirección </label>
+                    <input type="Dirección" name="dirección" placeholder="Ingrese su dirección" value="9984 W Pecan St"> 
+                </p>
+                    <p>
+                    <label for="Teléfono"> Número de teléfono</label>
+                    <input type="tel" name="teléfono" placeholder="Ingrese número de teléfono" value="(276) 265-0994r">
+                </p>
+            </form>
+            </div>
+
+            <div id="descripcion" class="col-md-9" style="background-color: rgb(236, 236, 236); padding: 30px;">
+                <h6>Experiencia Laboral</h6>
+                <ul>
+                 <li>2005-2006 Profesor adjunto de la materia “Análisis social latinoamericano”, impartida por el profesor Raúl Sevilla en los semestres 2005-2 y 2006-1 en la Facultad de Ciencias Políticas y Sociales de la Universidad Nacional Autónoma de México.</li>
+                 <li>-2007-2009 Investigador en el Instituto de Investigaciones Sociales de la Universidad Nacional Autónoma de México, bajo la supervisión del Dr. Huberto Anaya.</li>
+                 <li>-2010-2011 Profesor de asignatura en la Escuela Nacional de Antropología e Historia.</li>
+                 <li>2011-presente Investigador de medio tiempo en el Instituto de Investigaciones Antropológicas de la Universidad Nacional Autónoma de México.</li>
+            </ul>
+
+                <h6>Formación académica</h6>
+                <ul>
+                  <li>-2001-2004 Escuela Nacional Preparatoria No. 3.</li>
+                  <li>-2004-2009 Licenciatura en Sociología, Facultad de Ciencias Políticas y Sociales, Universidad Nacional Autónoma de México.</li>
+
+            </ul>
+
+                <h6>Idiomas</h6>
+                <ul>
+                 <li>Inglés</li>
+                 <li>Portugués</li>
+            </ul>
+
+                <h6>Aptitudes</h6>
+                <ul>
+                 <li>Trabajo en equipo</li>
+                 <li>inicativa</li>
+                 <li>Resolución de problemas</li>
+                 <li>Comunicación efectiva</li>
+            </ul>
+
+            </div>
+          
+        </div>
+        
+    </div>
+
+  <!-- Prueba de eventos
+    <p id="prueba">Probando JavaScript</p>
+    <button type="button" id="boton" onclick='document.getElementById("prueba").innerHTML = "Hello JavaScript!"'>Hacer click acá</button>
+-->
+  
+        <div class="footer">
+        Primer proyecto Ticmas, por Jesica Quero
+      </div>
+
+        
+</body>
+</html>
