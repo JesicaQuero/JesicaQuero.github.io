@@ -17,3 +17,15 @@ document.getElementById('boton').onclick=function(){
     document.getElementById("prueba").innerHTML = "Hello JavaScript!"
 }
 */
+
+window.onload=inicio;
+function inicio(){
+    document.getElementById("id1").onclick
+}
+
+function cambiocolor(){
+    var x=document.getElementById("id1").style;
+    x.color="red";
+    x.backgroundColor="blue";
+    x.fontSize="20px";
+}
